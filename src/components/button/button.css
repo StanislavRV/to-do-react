@@ -1,0 +1,31 @@
+
+.button {
+    width: 100px;
+    padding: 0.5rem 1rem;
+    outline: none;
+    background-color: transparent;
+    transition: .2s;
+    border: 2px solid teal;
+    color: teal;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: .5rem;
+}
+
+.button__red:hover {
+    background-color: rgb(199, 43, 51);
+    border: 2px solid rgb(199, 43, 51);
+    color: moccasin;
+}
+.button__green:hover {
+    background-color: teal;
+    border: 2px solid teal;
+    color: moccasin;
+}
+.button__blue:hover {
+    background-color: darkblue;
+    border: 2px solid darkblue;
+    color: moccasin;
+}
+

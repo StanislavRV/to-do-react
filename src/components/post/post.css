@@ -1,0 +1,112 @@
+.post {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    min-height: 100px;
+    padding: 1rem;
+    align-items: center;    
+    background-color: moccasin;
+    border: 1px solid teal;
+    margin-bottom: 1rem;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.post-title {
+    display: block;
+    width: 80%;
+    height: 100%;    
+}
+
+
+.post_done {    
+    background-color: rgb(120, 219, 111);
+}
+
+.post_button {
+    display: block;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    height: 100%;  
+    overflow: hidden;
+    transition: .3s;
+    padding-left: 200px;
+}
+
+.post:hover .post_button {
+    padding-left: 40px;
+   
+}
+
+
+
+.text__bolt {
+    margin: 0.5rem 0;
+    font-weight: bold;
+    color: rgb(189, 28, 28);
+}
+
+.area {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    outline: none;
+    transition: .2s;
+    overflow: hidden;
+}
+
+.area_click {
+    max-width: 300px;
+    min-width: 300px; 
+    border: 1px solid teal;
+}
+
+.area_clickdata {
+    max-width: 300px;
+    min-width: 300px; 
+    top: 40px;
+    left: 0px;
+    border: 1px solid teal;
+}
+.area_priority {
+    max-width: 300px;
+    min-width: 300px; 
+    top: 75%;
+    left: -35px;
+}
+.area_clickdescription {
+    max-width: 700px;    
+    width: 700px;    
+    max-height: 500px;    
+    height: 50%;  
+    top: 95px;
+    left: 15px;
+    opacity: 1;
+    padding: 0.5rem;
+    border: 1px solid teal;
+    
+}
+
+
+
+.edit {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 400px;
+    background-color: moccasin;
+    border: 2px solid darkblue;
+    z-index: 4;
+    margin-bottom: 20px;
+}
+
+.edit__button {
+   position: absolute;
+   top: 80%;
+   right: 55px;
+}
+
